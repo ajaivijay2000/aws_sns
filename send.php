@@ -1,6 +1,6 @@
 <?php
 // Reference taken from: https://docs.aws.amazon.com/aws-sdk-php/v3/api/api-sns-2010-03-31.html#publish
-// Additional Reference:
+
 require 'vendor/autoload.php';
 use Aws\Sns\SnsClient;
 // Instantiate the client with your AWS access keys
@@ -15,7 +15,7 @@ $sns = SnsClient::factory(array(
     ]
     ));
 
-//this variable to be used for attributes with each message that youd want to send out
+//this variable to be used for attributes with each message that you want to send out
 $msgattributes = [
     'AWS.SNS.SMS.SenderID' => [
         'DataType' => 'String',
