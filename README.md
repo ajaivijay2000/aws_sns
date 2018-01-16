@@ -1,6 +1,6 @@
 ## AWS simple notification service example
 
-The AWS SDK for PHP enables PHP developers to use Amazon Web Services from their PHP code. Here is the example of showing how to use amazon simple notification service using php and AWS SDK version > 3.
+The AWS SDK for PHP enables PHP developers to use Amazon Web Services from their PHP code. Here is the example of showing how to use amazon simple notification service using php and **AWS SDK version > 3**.
 
 ### Minimum requirements
   * PHP >= 5.5.0
