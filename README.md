@@ -15,5 +15,5 @@ The AWS SDK for PHP enables PHP developers to use Amazon Web Services from their
 **Step 2:** Run the Composer command to install the latest stable version of the SDK:
 > php composer.phar require aws/aws-sdk-php
 
-**Step 3:** Run sample code in cmd:
+**Step 3:** Run sample code:
 > php send.php
